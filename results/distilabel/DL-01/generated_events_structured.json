@@ -1,0 +1,56 @@
+[
+  {
+    "instruction": "Gere um evento FICTICIO de login malsucedido. Retorne somente JSON com exatamente: timestamp, event_type, username, source_ip, status. event_type deve ser failed_login e status failure. Use um IPv4 de documentacao, como 192.0.2.10. Nao classifique como ataque.",
+    "generation": "{\n  \"timestamp\": \"2023-10-05T12:34:56Z\",\n  \"event_type\": \"failed_login\",\n  \"username\": \"user123\",\n  \"source_ip\": \"192.0.2.10\",\n  \"status\": \"failure\"\n}",
+    "distilabel_metadata": {
+      "raw_output_generate_structured_events": "{\n  \"timestamp\": \"2023-10-05T12:34:56Z\",\n  \"event_type\": \"failed_login\",\n  \"username\": \"user123\",\n  \"source_ip\": \"192.0.2.10\",\n  \"status\": \"failure\"\n}",
+      "raw_input_generate_structured_events": [
+        {
+          "role": "user",
+          "content": "Gere um evento FICTICIO de login malsucedido. Retorne somente JSON com exatamente: timestamp, event_type, username, source_ip, status. event_type deve ser failed_login e status failure. Use um IPv4 de documentacao, como 192.0.2.10. Nao classifique como ataque."
+        }
+      ],
+      "statistics_generate_structured_events": {
+        "input_tokens": 92,
+        "output_tokens": 72
+      }
+    },
+    "model_name": "qwen3:0.6b"
+  },
+  {
+    "instruction": "Gere um evento FICTICIO de conexao bloqueada por firewall. Retorne somente JSON com exatamente: timestamp, event_type, source_ip, destination_ip, destination_port, action. event_type deve ser firewall_block e action block. Use IPs de documentacao, como 192.0.2.10 e 198.51.100.20. Nao invente causas ou consequencias.",
+    "generation": "{\n  \"timestamp\": \"2023-10-05T12:00:00Z\",\n  \"event_type\": \"firewall_block\",\n  \"source_ip\": \"192.0.2.10\",\n  \"destination_ip\": \"198.51.100.20\",\n  \"destination_port\": \"8080\",\n  \"action\": \"block\"\n}",
+    "distilabel_metadata": {
+      "raw_output_generate_structured_events": "{\n  \"timestamp\": \"2023-10-05T12:00:00Z\",\n  \"event_type\": \"firewall_block\",\n  \"source_ip\": \"192.0.2.10\",\n  \"destination_ip\": \"198.51.100.20\",\n  \"destination_port\": \"8080\",\n  \"action\": \"block\"\n}",
+      "raw_input_generate_structured_events": [
+        {
+          "role": "user",
+          "content": "Gere um evento FICTICIO de conexao bloqueada por firewall. Retorne somente JSON com exatamente: timestamp, event_type, source_ip, destination_ip, destination_port, action. event_type deve ser firewall_block e action block. Use IPs de documentacao, como 192.0.2.10 e 198.51.100.20. Nao invente causas ou consequencias."
+        }
+      ],
+      "statistics_generate_structured_events": {
+        "input_tokens": 111,
+        "output_tokens": 94
+      }
+    },
+    "model_name": "qwen3:0.6b"
+  },
+  {
+    "instruction": "Gere um evento FICTICIO de execucao de processo. Retorne somente JSON com exatamente: timestamp, event_type, hostname, process_name, username, process_id. event_type deve ser process_execution. process_id deve ser um numero inteiro. Nao afirme que o processo e malicioso.",
+    "generation": "{\n  \"timestamp\": \"2023-10-05T12:00:00Z\",\n  \"event_type\": \"process_execution\",\n  \"hostname\": \"example.com\",\n  \"process_name\": \"data_processor\",\n  \"username\": \"admin\",\n  \"process_id\": 123456\n}",
+    "distilabel_metadata": {
+      "raw_output_generate_structured_events": "{\n  \"timestamp\": \"2023-10-05T12:00:00Z\",\n  \"event_type\": \"process_execution\",\n  \"hostname\": \"example.com\",\n  \"process_name\": \"data_processor\",\n  \"username\": \"admin\",\n  \"process_id\": 123456\n}",
+      "raw_input_generate_structured_events": [
+        {
+          "role": "user",
+          "content": "Gere um evento FICTICIO de execucao de processo. Retorne somente JSON com exatamente: timestamp, event_type, hostname, process_name, username, process_id. event_type deve ser process_execution. process_id deve ser um numero inteiro. Nao afirme que o processo e malicioso."
+        }
+      ],
+      "statistics_generate_structured_events": {
+        "input_tokens": 85,
+        "output_tokens": 75
+      }
+    },
+    "model_name": "qwen3:0.6b"
+  }
+]

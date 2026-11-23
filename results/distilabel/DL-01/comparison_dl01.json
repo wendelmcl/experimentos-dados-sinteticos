@@ -1,0 +1,29 @@
+{
+  "experimento": "DL-01",
+  "modelo": "qwen3:0.6b",
+  "comparacao": {
+    "DL-01A": {
+      "abordagem": "texto_livre",
+      "registros": 3,
+      "campos_externos_completos": 3,
+      "respostas_json_objeto": 0,
+      "thinking": "configuracao_padrao"
+    },
+    "DL-01B": {
+      "abordagem": "json_solicitado",
+      "registros": 3,
+      "campos_externos_completos": 3,
+      "respostas_json_objeto": 3,
+      "aprovados_validacao": 2,
+      "reprovados_validacao": 1,
+      "thinking": "desativado"
+    }
+  },
+  "limitacoes": [
+    "Amostra de apenas tres registros por abordagem.",
+    "Configuracoes de geracao diferentes.",
+    "A validacao de esquema foi aplicada apenas ao DL-01B.",
+    "Qualidade semantica nao foi avaliada integralmente.",
+    "Nao houve avaliacao de desempenho de SLMs."
+  ]
+}

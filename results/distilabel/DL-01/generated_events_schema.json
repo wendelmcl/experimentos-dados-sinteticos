@@ -1,0 +1,20 @@
+[
+  {
+    "instruction": "Gere um evento ficticio de firewall que bloqueou uma conexao TCP na porta 8080. Use timestamp ISO 8601 e os IPs 192.0.2.10 e 198.51.100.20. Retorne somente o objeto JSON.",
+    "generation": "{\n  \"timestamp\": \"2023-10-15T12:34:56Z\",\n  \"event_type\": \"firewall_block\",\n  \"source_ip\": \"192.0.2.10\",\n  \"destination_ip\": \"198.51.100.20\",\n  \"destination_port\": 8080,\n  \"action\": \"block\"\n}",
+    "distilabel_metadata": {
+      "raw_output_generate_firewall_schema": "{\n  \"timestamp\": \"2023-10-15T12:34:56Z\",\n  \"event_type\": \"firewall_block\",\n  \"source_ip\": \"192.0.2.10\",\n  \"destination_ip\": \"198.51.100.20\",\n  \"destination_port\": 8080,\n  \"action\": \"block\"\n}",
+      "raw_input_generate_firewall_schema": [
+        {
+          "role": "user",
+          "content": "Gere um evento ficticio de firewall que bloqueou uma conexao TCP na porta 8080. Use timestamp ISO 8601 e os IPs 192.0.2.10 e 198.51.100.20. Retorne somente o objeto JSON."
+        }
+      ],
+      "statistics_generate_firewall_schema": {
+        "input_tokens": 84,
+        "output_tokens": 94
+      }
+    },
+    "model_name": "qwen3:0.6b"
+  }
+]

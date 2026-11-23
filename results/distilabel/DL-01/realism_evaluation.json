@@ -1,0 +1,29 @@
+{
+  "experimento": "DL-01C",
+  "avaliacao": "plausibilidade_operacional_exploratoria",
+  "total": 3,
+  "resultados": [
+    {
+      "categoria": "login",
+      "observacoes": [
+        "source_ip: endereço não global ou reservado",
+        "Evento de autenticação malsucedida sem contexto adicional de tentativas"
+      ]
+    },
+    {
+      "categoria": "firewall",
+      "observacoes": [
+        "source_ip: endereço não global ou reservado",
+        "destination_ip: endereço não global ou reservado",
+        "Evento de bloqueio com origem, destino, porta e ação identificados"
+      ]
+    },
+    {
+      "categoria": "process",
+      "observacoes": [
+        "Execução de processo sem informações sobre executável, caminho ou processo pai"
+      ]
+    }
+  ],
+  "limitacao": "Analise descritiva automatizada. Nao estabelece uma pontuacao validada de realismo operacional."
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "categoria": "login",
+    "instruction": "Gere um evento ficticio de login malsucedido. Use timestamp ISO 8601, usuario ficticio e IP 192.0.2.10. Nao classifique como ataque. Responda somente JSON.",
+    "generation": "{\n  \"timestamp\": \"2023-10-15T12:30:00Z\",\n  \"event_type\": \"failed_login\",\n  \"username\": \"user123\",\n  \"source_ip\": \"192.0.2.10\",\n  \"status\": \"failure\"\n}",
+    "model_name": "qwen3:0.6b",
+    "schema_valid": true,
+    "validation_errors": [],
+    "validated_event": {
+      "timestamp": "2023-10-15T12:30:00Z",
+      "event_type": "failed_login",
+      "username": "user123",
+      "source_ip": "192.0.2.10",
+      "status": "failure"
+    }
+  },
+  {
+    "categoria": "firewall",
+    "instruction": "Gere um evento ficticio de firewall bloqueando uma conexao TCP na porta 8080. Use IPs 192.0.2.10 e 198.51.100.20. Responda somente JSON.",
+    "generation": "{\n  \"timestamp\": \"2023-10-05T12:00:00Z\",\n  \"event_type\": \"firewall_block\",\n  \"source_ip\": \"192.0.2.10\",\n  \"destination_ip\": \"198.51.100.20\",\n  \"destination_port\": 8080,\n  \"action\": \"block\"\n}",
+    "model_name": "qwen3:0.6b",
+    "schema_valid": true,
+    "validation_errors": [],
+    "validated_event": {
+      "timestamp": "2023-10-05T12:00:00Z",
+      "event_type": "firewall_block",
+      "source_ip": "192.0.2.10",
+      "destination_ip": "198.51.100.20",
+      "destination_port": 8080,
+      "action": "block"
+    }
+  },
+  {
+    "categoria": "process",
+    "instruction": "Gere um evento ficticio de execucao de processo em um endpoint. Use hostname ficticio, usuario, processo e PID inteiro positivo. Nao classifique como malware. Responda somente JSON.",
+    "generation": "{\n  \"timestamp\": \"2023-10-05T12:00:00Z\",\n  \"event_type\": \"process_execution\",\n  \"hostname\": \"ficto-host.example.com\",\n  \"process_name\": \"my_process\",\n  \"username\": \"admin\",\n  \"process_id\": 123456\n}",
+    "model_name": "qwen3:0.6b",
+    "schema_valid": true,
+    "validation_errors": [],
+    "validated_event": {
+      "timestamp": "2023-10-05T12:00:00Z",
+      "event_type": "process_execution",
+      "hostname": "ficto-host.example.com",
+      "process_name": "my_process",
+      "username": "admin",
+      "process_id": 123456
+    }
+  }
+]

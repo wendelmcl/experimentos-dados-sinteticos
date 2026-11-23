@@ -1,0 +1,31 @@
+{
+  "experimento": "DL-01",
+  "tipo": "geracao_textual_livre",
+  "total_registros": 3,
+  "registros_completos": 3,
+  "respostas_json_objeto": 0,
+  "resultados": [
+    {
+      "registro": 1,
+      "campos_ausentes": [],
+      "caracteres": 882,
+      "resposta_json_objeto": false,
+      "modelo": "qwen3:0.6b"
+    },
+    {
+      "registro": 2,
+      "campos_ausentes": [],
+      "caracteres": 804,
+      "resposta_json_objeto": false,
+      "modelo": "qwen3:0.6b"
+    },
+    {
+      "registro": 3,
+      "campos_ausentes": [],
+      "caracteres": 810,
+      "resposta_json_objeto": false,
+      "modelo": "qwen3:0.6b"
+    }
+  ],
+  "observacao": "Avalia campos externos e formato das respostas. Nao comprova qualidade semantica ou realismo."
+}

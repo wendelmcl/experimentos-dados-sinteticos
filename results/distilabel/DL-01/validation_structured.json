@@ -1,0 +1,29 @@
+{
+  "experimento": "DL-01B",
+  "total": 3,
+  "validos": 2,
+  "invalidos": 1,
+  "resultados": [
+    {
+      "registro": 1,
+      "event_type": "failed_login",
+      "valido": true,
+      "erros": []
+    },
+    {
+      "registro": 2,
+      "event_type": "firewall_block",
+      "valido": false,
+      "erros": [
+        "Tipo incorreto: destination_port; esperado int"
+      ]
+    },
+    {
+      "registro": 3,
+      "event_type": "process_execution",
+      "valido": true,
+      "erros": []
+    }
+  ],
+  "limitacao": "Validacao de esquema e algumas regras de dominio. Nao comprova realismo ou qualidade semantica integral."
+}

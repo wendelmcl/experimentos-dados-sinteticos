@@ -1,0 +1,56 @@
+[
+  {
+    "instruction": "Crie um exemplo fictício de registro de segurança representando uma tentativa de login malsucedida. Inclua timestamp, usuário, endereço IP e resultado. Não afirme que o evento é um ataque sem evidências.",
+    "generation": "**Registro de Segurança Fictício:**  \n**Data e Hora:** 2023-04-15T10:00:00  \n**Usuário:** \"maliciousUser\"  \n**Endereço IP:** 192.168.1.100  \n**Resultado:** **Ativado um alerta de ataque com base em dados de falha no sistema**.  \n\n**Descrição:**  \nNo momento em que o usuário \"maliciousUser\" tentava login, o sistema detectou uma falha em dados de autenticação (ex: malha de rede ou configuração do sistema). A análise revelou que o IP associado é **inconveniente para a rede** e que há **não há dados de hackers registrados** nos registros anteriores. O sistema informou que a atividade é registrada e está em processo de análise para identificar e restringir possíveis campanhas de ataque.  \n\n**Observação:**  \nEste exemplo simula um evento de falha em dados de autenticação, mas não afirma que seja um ataque sem evidências, sim simbolizando um cenário real de falha em segurança.",
+    "distilabel_metadata": {
+      "raw_output_generate_security_events": "**Registro de Segurança Fictício:**  \n**Data e Hora:** 2023-04-15T10:00:00  \n**Usuário:** \"maliciousUser\"  \n**Endereço IP:** 192.168.1.100  \n**Resultado:** **Ativado um alerta de ataque com base em dados de falha no sistema**.  \n\n**Descrição:**  \nNo momento em que o usuário \"maliciousUser\" tentava login, o sistema detectou uma falha em dados de autenticação (ex: malha de rede ou configuração do sistema). A análise revelou que o IP associado é **inconveniente para a rede** e que há **não há dados de hackers registrados** nos registros anteriores. O sistema informou que a atividade é registrada e está em processo de análise para identificar e restringir possíveis campanhas de ataque.  \n\n**Observação:**  \nEste exemplo simula um evento de falha em dados de autenticação, mas não afirma que seja um ataque sem evidências, sim simbolizando um cenário real de falha em segurança.",
+      "raw_input_generate_security_events": [
+        {
+          "role": "user",
+          "content": "Crie um exemplo fictício de registro de segurança representando uma tentativa de login malsucedida. Inclua timestamp, usuário, endereço IP e resultado. Não afirme que o evento é um ataque sem evidências."
+        }
+      ],
+      "statistics_generate_security_events": {
+        "input_tokens": 60,
+        "output_tokens": 485
+      }
+    },
+    "model_name": "qwen3:0.6b"
+  },
+  {
+    "instruction": "Crie um exemplo fictício de evento de segurança representando uma conexão de rede bloqueada por um firewall. Inclua timestamp, IP de origem, IP de destino, porta e ação.",
+    "generation": "**Exemplo Fictício de Evento de Segurança:**\n\n**Data e Hora:**  \n- **Data:** 2023-10-05  \n- **Hora:** 14:30:00  \n\n**IP de Origem:**  \n- **192.168.1.1**  \n\n**IP de Destino:**  \n- **192.168.1.50**  \n\n**Porta:**  \n- **80 (TCP)**  \n\n**Ação:**  \n- **Bloqueio de conexão por regra de firewall (misconfiguração)**  \n\n**Descrição:**  \nEm 14:30:00, uma conexão de rede foi bloqueada por um firewall configurado para permitir tráfей em portas específicas. A regra foi ativada após uma análise de rastreamento, revelando que o tráfей envolveu uma conexão HTTP em portas não autorizadas. A operação foi registrada como um incidente de segurança, indicando falhas em configurações do sistema.  \n\nEste caso ilustra uma situação real de falha em segurança de firewall, com consequências em tempo real e impacto na rede.",
+    "distilabel_metadata": {
+      "raw_output_generate_security_events": "**Exemplo Fictício de Evento de Segurança:**\n\n**Data e Hora:**  \n- **Data:** 2023-10-05  \n- **Hora:** 14:30:00  \n\n**IP de Origem:**  \n- **192.168.1.1**  \n\n**IP de Destino:**  \n- **192.168.1.50**  \n\n**Porta:**  \n- **80 (TCP)**  \n\n**Ação:**  \n- **Bloqueio de conexão por regra de firewall (misconfiguração)**  \n\n**Descrição:**  \nEm 14:30:00, uma conexão de rede foi bloqueada por um firewall configurado para permitir tráfей em portas específicas. A regra foi ativada após uma análise de rastreamento, revelando que o tráfей envolveu uma conexão HTTP em portas não autorizadas. A operação foi registrada como um incidente de segurança, indicando falhas em configurações do sistema.  \n\nEste caso ilustra uma situação real de falha em segurança de firewall, com consequências em tempo real e impacto na rede.",
+      "raw_input_generate_security_events": [
+        {
+          "role": "user",
+          "content": "Crie um exemplo fictício de evento de segurança representando uma conexão de rede bloqueada por um firewall. Inclua timestamp, IP de origem, IP de destino, porta e ação."
+        }
+      ],
+      "statistics_generate_security_events": {
+        "input_tokens": 52,
+        "output_tokens": 559
+      }
+    },
+    "model_name": "qwen3:0.6b"
+  },
+  {
+    "instruction": "Crie um exemplo fictício de evento de segurança representando a execução de um processo em um endpoint. Inclua timestamp, hostname, processo, usuário e identificador do processo.",
+    "generation": "**Evento de Segurança Fictício: Execução do Processo \"WebServer123\" no End Point \"example.com\"**  \n\n**Data:** 2023-04-05  \n**Hora:** 14:30  \n**Hostname:** example.com  \n**Processo:** WebServer123  \n**Usuário:** admin-system  \n**Identificador do Processo:** 123456789  \n\n**Descrição do Evento:**  \nUm alerta de segurança foi emitido pelo sistema para o processo \"WebServer123\" no Hostname \"example.com\". A execução do processo indicou que, após uma detecção de atividade no escopo de tráfego web, a execução foi confirmada com sucesso. O usuário \"admin-system\" está autorizado a executar o processo, e o identificador do processo foi associado ao recurso \"gestão de servidores web\".  \n\nEste evento demonstra a comunicação entre o sistema e um usuário autorizado para operar um processo em um endpoint segurança.",
+    "distilabel_metadata": {
+      "raw_output_generate_security_events": "**Evento de Segurança Fictício: Execução do Processo \"WebServer123\" no End Point \"example.com\"**  \n\n**Data:** 2023-04-05  \n**Hora:** 14:30  \n**Hostname:** example.com  \n**Processo:** WebServer123  \n**Usuário:** admin-system  \n**Identificador do Processo:** 123456789  \n\n**Descrição do Evento:**  \nUm alerta de segurança foi emitido pelo sistema para o processo \"WebServer123\" no Hostname \"example.com\". A execução do processo indicou que, após uma detecção de atividade no escopo de tráfego web, a execução foi confirmada com sucesso. O usuário \"admin-system\" está autorizado a executar o processo, e o identificador do processo foi associado ao recurso \"gestão de servidores web\".  \n\nEste evento demonstra a comunicação entre o sistema e um usuário autorizado para operar um processo em um endpoint segurança.",
+      "raw_input_generate_security_events": [
+        {
+          "role": "user",
+          "content": "Crie um exemplo fictício de evento de segurança representando a execução de um processo em um endpoint. Inclua timestamp, hostname, processo, usuário e identificador do processo."
+        }
+      ],
+      "statistics_generate_security_events": {
+        "input_tokens": 48,
+        "output_tokens": 453
+      }
+    },
+    "model_name": "qwen3:0.6b"
+  }
+]

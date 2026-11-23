@@ -1,0 +1,42 @@
+{
+  "experimento": "DL-01C",
+  "tipo_avaliacao": "coerencia_semantica_basica",
+  "total": 3,
+  "aprovados": 3,
+  "resultados": [
+    {
+      "categoria": "login",
+      "aprovado": true,
+      "verificacoes": {
+        "timestamp_valido": true,
+        "tipo_coerente": true,
+        "status_coerente": true,
+        "usuario_presente": true,
+        "source_ip_valido": true
+      }
+    },
+    {
+      "categoria": "firewall",
+      "aprovado": true,
+      "verificacoes": {
+        "timestamp_valido": true,
+        "tipo_coerente": true,
+        "acao_coerente": true,
+        "porta_valida": true,
+        "source_ip_valido": true,
+        "destination_ip_valido": true
+      }
+    },
+    {
+      "categoria": "process",
+      "aprovado": true,
+      "verificacoes": {
+        "timestamp_valido": true,
+        "tipo_coerente": true,
+        "processo_presente": true,
+        "pid_valido": true
+      }
+    }
+  ],
+  "limitacoes": "Verificacoes deterministicas de coerencia entre campos. Nao comprovam realismo operacional, fidelidade estatistica ou qualidade semantica integral."
+}

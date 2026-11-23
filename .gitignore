@@ -28,3 +28,13 @@ output-ef01/
 
 # Configuração expandida do cenário oficial
 results/evidenceforge/EF-01/RESOLVED_SCENARIO.yaml
+
+# Repositorio original do Distilabel
+distilabel/distilabel/
+
+# Backups de desenvolvimento do Distilabel
+distilabel/scripts/pipeline_dl01_schema_all_backup.py
+distilabel/scripts/pipeline_dl01_schema_all_pre_spawn_fix.py
+
+# Backups da documentação técnica
+reports/Tutorial_DL-01_Distilabel.backup.md

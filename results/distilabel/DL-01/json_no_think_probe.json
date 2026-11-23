@@ -1,0 +1,15 @@
+[
+  {
+    "generations": [
+      "{\n  \"timestamp\": \"2023-10-05T12:30:00Z\",\n  \"event_type\": \"failed_login\",\n  \"username\": \"user123\",\n  \"source_ip\": \"192.0.2.10\",\n  \"status\": \"failure\"\n}"
+    ],
+    "statistics": {
+      "input_tokens": [
+        98
+      ],
+      "output_tokens": [
+        72
+      ]
+    }
+  }
+]
