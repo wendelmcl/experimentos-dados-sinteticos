@@ -1,0 +1,1354 @@
+{
+  "schema_version": 3,
+  "scenario_name": "branch-office-example",
+  "scenario_description": "Beginner-friendly branch office scenario with a small mixed Windows/Linux\nenvironment, explicit forward proxy, perimeter firewall, network sensors, and\na compact attack storyline. The attack begins with public web reconnaissance,\npivots through a compromised admin account, and ends with outbound beaconing\nfrom a workstation so new users can see several log families in one run.\n",
+  "generated_at": "2024-05-14T12:00:00Z",
+  "observation_profile": "complete",
+  "collection_window": {
+    "start": "2024-05-14T12:00:00Z",
+    "end": "2024-05-14T18:00:00Z"
+  },
+  "source_evidence_status": {
+    "04247d3b-2c19-416f-ae1e-f8daaf61d559": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "047481ef-56b3-4185-ab64-f5327effe836": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "051497a4-934f-4662-abcb-4eee429d6e75": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "09092b5d-6638-426f-baad-0b92f0c269ef": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "0d6cbd53-ff92-46cb-9c86-3491fadac9b0": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "0e61c9c8-71b2-4a48-bafa-c4de84382f8d": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "12170343-04f5-452c-acf7-9d9ac19f369b": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "1639cf86-9fc0-46f2-84c1-6818e133aaf6": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "20eb7788-3528-4f6f-acf6-de7042f42c27": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "2a97c22f-ee58-4475-8fd8-bb84ecb12db7": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "2f0bdc2e-ade7-48af-b0fd-ae68b9456e21": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "3011f53d-8145-4165-8308-29e7044e6547": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "340d7879-b3f8-44c8-8f54-6c2f03df8922": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "37b26a13-ca82-4244-90ed-c09b60ce22e4": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "3d684c37-6ba1-4bb2-86d9-15b5f40b8538": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "40f5e2e7-ed54-4c0f-a44b-75ef84fbf6de": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "416d6baa-b240-4a0c-beae-1b9f57a7c12d": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "435bb72e-a6e3-4c5c-b886-5fe5ec80e7e1": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "47141e71-8264-4df2-b9ed-f33302d77b39": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "47ca7132-f45d-4136-8cef-c207f676fa95": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "5334a92f-8261-4ebd-a10c-2d89e51f43aa": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "53d50981-ceba-4c47-b2c4-b2303a11ea46": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "5ac3baa3-81b9-4a81-9d04-9faafacef225": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "5bdd6612-16ae-4c37-96f7-7ced12e954b1": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "5cd0d089-72cc-4bc8-915a-fce5ff1d9303": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "64411892-6e51-4d8e-a497-4399a0ac9b79": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "6444d63d-c5e0-4a93-b625-f3f0cf086506": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "68226599-85bf-48da-9804-0753a2c299e1": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "794e5cfd-ec75-47d7-bbee-b34b2cc1807a": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "87f17801-1a3e-4894-8267-2c1e8b61ecbe": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "88216809-5029-4450-97b7-9485d83e8bb9": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "90e3f60a-6c01-41dc-ba0d-9ec1faa50944": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "97bc8380-8b96-40d5-81c7-7556c9ec5f96": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "9966ad7f-55ba-4c2f-952e-c49d449a9462": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "a4de73bf-bbde-433e-818d-137ddbfda7ec": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "b1a321af-7212-4a4a-8020-0d1a504f2803": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "bb7d7f09-bc84-405d-8b89-ca08c1e282ee": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "bdaa8dbe-ac8b-433c-80c8-a3b5fe124484": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "cf8aa1b6-6413-4a89-8086-690de6a49327": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "da7fde6d-722b-4b11-853e-599b05057ae6": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "evt-001": {
+      "asa": {
+        "visible": 69
+      },
+      "ecar": {
+        "visible": 69
+      },
+      "ids": {
+        "visible": 9
+      },
+      "web": {
+        "visible": 54
+      },
+      "zeek": {
+        "visible": 168
+      }
+    },
+    "evt-002": {
+      "asa": {
+        "visible": 1
+      },
+      "ecar": {
+        "visible": 6
+      },
+      "zeek": {
+        "visible": 1
+      }
+    },
+    "evt-003": {
+      "asa": {
+        "visible": 32
+      },
+      "ecar": {
+        "visible": 5
+      },
+      "zeek": {
+        "visible": 32
+      }
+    },
+    "evt-004": {
+      "asa": {
+        "visible": 1
+      },
+      "ecar": {
+        "visible": 6
+      },
+      "sysmon": {
+        "visible": 4
+      },
+      "windows_security": {
+        "visible": 5
+      },
+      "zeek": {
+        "visible": 1
+      }
+    },
+    "evt-005": {
+      "ecar": {
+        "visible": 20
+      },
+      "sysmon": {
+        "visible": 20
+      },
+      "windows_security": {
+        "visible": 7
+      }
+    },
+    "evt-006": {
+      "asa": {
+        "filtered": 15,
+        "visible": 8
+      },
+      "ecar": {
+        "visible": 23
+      },
+      "proxy": {
+        "visible": 8
+      },
+      "sysmon": {
+        "visible": 15
+      },
+      "windows_security": {
+        "visible": 15
+      },
+      "zeek": {
+        "visible": 46
+      }
+    },
+    "f19c6a9e-c6e9-4809-b6bd-71445c69189b": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "f41e49ca-b24e-4113-99ba-16e04bbf52ba": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "f86fa4a9-4fd9-4ad0-ac7a-34441016f2e0": {
+      "ids": {
+        "visible": 1
+      }
+    },
+    "red_herring:rh-001": {
+      "asa": {
+        "visible": 2
+      },
+      "ecar": {
+        "visible": 3
+      },
+      "sysmon": {
+        "visible": 2
+      },
+      "windows_security": {
+        "visible": 5
+      },
+      "zeek": {
+        "visible": 2
+      }
+    }
+  },
+  "ids_evaluation": {
+    "observation": {
+      "visible": 52
+    },
+    "sensors": {
+      "ids-bo-edge": {
+        "1:366": {
+          "gid": 1,
+          "sid": 366,
+          "candidate": 4,
+          "emitted": 4,
+          "policy_filtered": 0,
+          "emitted_visible": 4,
+          "emitted_delayed": 0,
+          "origins": {
+            "built_in": 4
+          },
+          "emitted_sha256": "d2fb284597a121d67ac2bfda106e27d5d54bb67e97629709e0a8f37a34a9fc2a"
+        },
+        "1:382": {
+          "gid": 1,
+          "sid": 382,
+          "candidate": 7,
+          "emitted": 7,
+          "policy_filtered": 0,
+          "emitted_visible": 7,
+          "emitted_delayed": 0,
+          "origins": {
+            "built_in": 7
+          },
+          "emitted_sha256": "e6aedc927e03bf31e0662d600af0a3d59492aee27f36112d22cac323071c93fe"
+        },
+        "1:384": {
+          "gid": 1,
+          "sid": 384,
+          "candidate": 8,
+          "emitted": 8,
+          "policy_filtered": 0,
+          "emitted_visible": 8,
+          "emitted_delayed": 0,
+          "origins": {
+            "built_in": 8
+          },
+          "emitted_sha256": "db774d0de44c92fa1627f49b572700f0302e0d801e5f277d52565894ebe309bd"
+        },
+        "1:2000575": {
+          "gid": 1,
+          "sid": 2000575,
+          "candidate": 9,
+          "emitted": 9,
+          "policy_filtered": 0,
+          "emitted_visible": 9,
+          "emitted_delayed": 0,
+          "origins": {
+            "built_in": 9
+          },
+          "emitted_sha256": "febb163c4e5fd99fdd6b476fa237a570fed790a2fe7d3a0c5bfab43f758a2524"
+        },
+        "1:2002677": {
+          "gid": 1,
+          "sid": 2002677,
+          "candidate": 1,
+          "emitted": 1,
+          "policy_filtered": 0,
+          "emitted_visible": 1,
+          "emitted_delayed": 0,
+          "origins": {
+            "built_in": 1
+          },
+          "emitted_sha256": "d829f310555d4d40a6a6ae71de1e1df1991c0d0aff0f40f1456769a158bb3fac"
+        },
+        "1:2002910": {
+          "gid": 1,
+          "sid": 2002910,
+          "candidate": 2,
+          "emitted": 2,
+          "policy_filtered": 0,
+          "emitted_visible": 2,
+          "emitted_delayed": 0,
+          "origins": {
+            "built_in": 2
+          },
+          "emitted_sha256": "c25d5f2c044743bd0a9cb4283172091f7729fa4bc2c449c8d74d50c8bd6df156"
+        },
+        "1:2003068": {
+          "gid": 1,
+          "sid": 2003068,
+          "candidate": 9,
+          "emitted": 9,
+          "policy_filtered": 0,
+          "emitted_visible": 9,
+          "emitted_delayed": 0,
+          "origins": {
+            "built_in": 9
+          },
+          "emitted_sha256": "50fe0be7b22d82cdbbad0c104f9f1855df8c295e2e9e54666dd6bc7596f332b4"
+        },
+        "1:2009582": {
+          "gid": 1,
+          "sid": 2009582,
+          "candidate": 1,
+          "emitted": 1,
+          "policy_filtered": 0,
+          "emitted_visible": 1,
+          "emitted_delayed": 0,
+          "origins": {
+            "built_in": 1
+          },
+          "emitted_sha256": "f2dd3fad1ac0c202070fb1f01423c011399e55b7fe3a89f6bbe3cfa46275b097"
+        },
+        "1:2009714": {
+          "gid": 1,
+          "sid": 2009714,
+          "candidate": 3,
+          "emitted": 3,
+          "policy_filtered": 0,
+          "emitted_visible": 3,
+          "emitted_delayed": 0,
+          "origins": {
+            "built_in": 3
+          },
+          "emitted_sha256": "6d8bfc86bd2150a6ed100c0b66061165eb3026c9ac45c7a6b916bc91c72aa7c3"
+        },
+        "1:2012887": {
+          "gid": 1,
+          "sid": 2012887,
+          "candidate": 2,
+          "emitted": 2,
+          "policy_filtered": 0,
+          "emitted_visible": 2,
+          "emitted_delayed": 0,
+          "origins": {
+            "built_in": 2
+          },
+          "emitted_sha256": "70c5d8b5c983a07ffe8973e36993e509db36106113bbaf860be11f75f646792c"
+        },
+        "1:2027885": {
+          "gid": 1,
+          "sid": 2027885,
+          "candidate": 1,
+          "emitted": 1,
+          "policy_filtered": 0,
+          "emitted_visible": 1,
+          "emitted_delayed": 0,
+          "origins": {
+            "built_in": 1
+          },
+          "emitted_sha256": "727e74ac0327646624f5106602f636d483847cdc0a6b3b76ec07ffce7757720d"
+        },
+        "1:2034567": {
+          "gid": 1,
+          "sid": 2034567,
+          "candidate": 1,
+          "emitted": 1,
+          "policy_filtered": 0,
+          "emitted_visible": 1,
+          "emitted_delayed": 0,
+          "origins": {
+            "built_in": 1
+          },
+          "emitted_sha256": "07a00966a98bbeb20190ed998d7f4c4e19079542eefde980509cd6709ea040a9"
+        },
+        "1:2101071": {
+          "gid": 1,
+          "sid": 2101071,
+          "candidate": 2,
+          "emitted": 2,
+          "policy_filtered": 0,
+          "emitted_visible": 2,
+          "emitted_delayed": 0,
+          "origins": {
+            "built_in": 2
+          },
+          "emitted_sha256": "d43c5261d9c3cb927c52bcbf91704faa39d0f1c86b240091b9ab7fede9571e31"
+        },
+        "1:2101129": {
+          "gid": 1,
+          "sid": 2101129,
+          "candidate": 1,
+          "emitted": 1,
+          "policy_filtered": 0,
+          "emitted_visible": 1,
+          "emitted_delayed": 0,
+          "origins": {
+            "built_in": 1
+          },
+          "emitted_sha256": "460db141f83db4bb921b1908b943ab0fdf4988bb6b1f4e507861c25978eb5cee"
+        },
+        "1:2101852": {
+          "gid": 1,
+          "sid": 2101852,
+          "candidate": 1,
+          "emitted": 1,
+          "policy_filtered": 0,
+          "emitted_visible": 1,
+          "emitted_delayed": 0,
+          "origins": {
+            "built_in": 1
+          },
+          "emitted_sha256": "3091c5943815cd1549e12157421a49a42bed8896bab38146d5db71fcc5223537"
+        }
+      }
+    }
+  },
+  "storyline_steps": [
+    {
+      "storyline_id": "evt-001",
+      "index": 0,
+      "actor": "www-data",
+      "system": "WEB-BO-01",
+      "activity": "External vulnerability scanner probes the public claims portal",
+      "ground_truth_section": "storyline",
+      "event_types": [
+        "web_scan"
+      ]
+    },
+    {
+      "storyline_id": "evt-002",
+      "index": 1,
+      "actor": "www-data",
+      "system": "WEB-BO-01",
+      "activity": "Attacker obtains a shell on the web server and checks process identity",
+      "ground_truth_section": "storyline",
+      "event_types": [
+        "process",
+        "ssh_session"
+      ]
+    },
+    {
+      "storyline_id": "evt-003",
+      "index": 2,
+      "actor": "www-data",
+      "system": "WEB-BO-01",
+      "activity": "Attacker performs light internal discovery from the DMZ host",
+      "ground_truth_section": "storyline",
+      "event_types": [
+        "port_scan",
+        "process"
+      ]
+    },
+    {
+      "storyline_id": "evt-004",
+      "index": 3,
+      "actor": "nina.kapoor",
+      "system": "FILE-BO-01",
+      "activity": "Attacker uses compromised admin credentials to RDP from the DMZ web server to the file server",
+      "ground_truth_section": "storyline",
+      "event_types": [
+        "rdp_session"
+      ]
+    },
+    {
+      "storyline_id": "evt-005",
+      "index": 4,
+      "actor": "nina.kapoor",
+      "system": "FILE-BO-01",
+      "activity": "Attacker enumerates file shares and stages a small archive",
+      "ground_truth_section": "storyline",
+      "event_types": [
+        "process"
+      ]
+    },
+    {
+      "storyline_id": "evt-006",
+      "index": 5,
+      "actor": "nina.kapoor",
+      "system": "WS-NKAPOOR-01",
+      "activity": "Compromised admin workstation beacons through the explicit proxy to attacker infrastructure",
+      "ground_truth_section": "storyline",
+      "event_types": [
+        "beacon"
+      ]
+    }
+  ],
+  "red_herring_steps": [
+    {
+      "storyline_id": "rh-001",
+      "index": 0,
+      "actor": "victor.hale",
+      "system": "WS-VHALE-01",
+      "activity": "Branch manager mistypes a password during a VPN reconnect",
+      "ground_truth_section": "red_herring",
+      "event_types": [
+        "failed_logon"
+      ],
+      "explanation": "Benign user error that creates a small cluster of failed authentication evidence"
+    }
+  ],
+  "intent_reconciliation": {
+    "complete": true,
+    "expected_count": 11,
+    "planned_count": 11,
+    "occurred_count": 11,
+    "observed_count": 11,
+    "duplicate_occurrence_count": 0,
+    "missing_intent_ids": [],
+    "unexpected_intent_ids": [],
+    "intents": [
+      {
+        "intent_id": "f15b9fa9-a6d9-43ec-aef7-9a7db84474a0",
+        "ground_truth_section": "storyline",
+        "storyline_id": "evt-001",
+        "event_type": "web_scan",
+        "semantic_instance_key": "7d36364f0b4c5decbbc0509e:0",
+        "authored_time": "+55m",
+        "actor": "www-data",
+        "system": "WEB-BO-01",
+        "activity": "External vulnerability scanner probes the public claims portal",
+        "planned": true,
+        "action_ids": [
+          "7a01d4c8-99fd-435f-b255-9270b33ab705",
+          "8014e88d-137d-4b1d-a549-a3d82a39c227",
+          "8deccff5-045a-45ca-a349-cd2b5217a86d",
+          "b60410da-4087-4138-8ee7-b54f64a31144",
+          "c649be6f-c240-42d5-9c64-65cfaf11d76b",
+          "c6590bd4-e3ee-479d-8282-445fb9c03c46",
+          "e9ea32a9-8731-41e7-ada9-1ccaf52ca816",
+          "f06846be-ac46-4121-8a8e-da143be0ea06"
+        ],
+        "occurrence_ids": [
+          "29ae3b95-3b37-434c-a872-61d4adc13105",
+          "300f5411-f935-4248-9e1c-f7c5efb670d4",
+          "51bd68b2-26a4-41e0-8094-4858874d02b0",
+          "8456d85b-e13c-40a2-8651-b51f13f6b1da",
+          "bf0328c2-0f53-4cee-9db2-46bea5532452",
+          "ceba0e73-6c4c-4cff-8290-787a9be43f02",
+          "df53ff52-9b1f-44b2-9430-e878027d0279",
+          "feca0c95-5ebc-4149-adea-0ede89849926"
+        ],
+        "action_reference_count": 69,
+        "occurrence_reference_count": 69,
+        "action_digest": "1afacd69f6eac04156d9b203b995221225b4e2bdf79839521d0eb74e20bd32b6",
+        "occurrence_digest": "974d5e8063276b086bfc7734544e09c4517431ba60db087c5a5f459075d5c925",
+        "duplicate_occurrence_count": 0,
+        "occurrence_window_counts": {
+          "24h": 69,
+          "7d": 69,
+          "30d": 69
+        },
+        "source_status": {
+          "asa": {
+            "visible": 69
+          },
+          "ecar": {
+            "visible": 69
+          },
+          "ids": {
+            "visible": 9
+          },
+          "web": {
+            "visible": 54
+          },
+          "zeek": {
+            "visible": 168
+          }
+        }
+      },
+      {
+        "intent_id": "835e52cc-6190-4537-8b5c-66e4aa2c7ee3",
+        "ground_truth_section": "storyline",
+        "storyline_id": "evt-002",
+        "event_type": "ssh_session",
+        "semantic_instance_key": "72a2ec5e9b0131dceb95ded1:0",
+        "authored_time": "+1h5m",
+        "actor": "www-data",
+        "system": "WEB-BO-01",
+        "activity": "Attacker obtains a shell on the web server and checks process identity",
+        "planned": true,
+        "action_ids": [
+          "459cda75-04a8-4362-b4ba-2697ac335865",
+          "9430558f-8a7f-4bf6-8916-376e3e1c5fe4",
+          "network-connection-49b0b1d2-7603-4aad-9808-bb65e4c30f05"
+        ],
+        "occurrence_ids": [
+          "34ce3751-2338-4926-9ed4-0688ce24f909",
+          "50e8060e-7fd8-4e8d-80bb-093eb1dd288c",
+          "7da968d5-314c-415b-9c80-df0eb6e9aca3",
+          "b554d870-340e-4e13-8483-579e024a4a9b"
+        ],
+        "action_reference_count": 4,
+        "occurrence_reference_count": 4,
+        "action_digest": "1aad1f91841d7671b38aed96dd3f6cdda96837f7538de4fab8f335e6805c1de5",
+        "occurrence_digest": "3bcb214391d8e8706e942c4128f10dafe26a5fea20e6fcbd98399c7dc478caf4",
+        "duplicate_occurrence_count": 0,
+        "occurrence_window_counts": {
+          "24h": 4,
+          "7d": 4,
+          "30d": 4
+        },
+        "source_status": {
+          "asa": {
+            "visible": 1
+          },
+          "ecar": {
+            "visible": 4
+          },
+          "zeek": {
+            "visible": 1
+          }
+        }
+      },
+      {
+        "intent_id": "908e69f4-dfcf-4627-99ee-09e915561bda",
+        "ground_truth_section": "storyline",
+        "storyline_id": "evt-002",
+        "event_type": "process",
+        "semantic_instance_key": "975c7b060cf118269f424684:0",
+        "authored_time": "+1h5m",
+        "actor": "www-data",
+        "system": "WEB-BO-01",
+        "activity": "Attacker obtains a shell on the web server and checks process identity",
+        "planned": true,
+        "action_ids": [
+          "5456c097-87ca-4a77-9164-ac08f4a006a7"
+        ],
+        "occurrence_ids": [
+          "7524f6d8-e6b0-40f8-8060-51b1348332d3",
+          "f2e219d1-7e29-4db4-b658-e66a4358cf8b"
+        ],
+        "action_reference_count": 2,
+        "occurrence_reference_count": 2,
+        "action_digest": "997aacf6ac69a540f016298f536b787b7808afb41dc648245d2a51f391c17ebb",
+        "occurrence_digest": "9911fff1a169f47213d68b053832db84003fc1593ca312ba20415ab3a7afc428",
+        "duplicate_occurrence_count": 0,
+        "occurrence_window_counts": {
+          "24h": 2,
+          "7d": 2,
+          "30d": 2
+        },
+        "source_status": {
+          "ecar": {
+            "visible": 2
+          }
+        }
+      },
+      {
+        "intent_id": "dc4aba52-859a-4168-8b45-6ab52f537253",
+        "ground_truth_section": "storyline",
+        "storyline_id": "evt-003",
+        "event_type": "process",
+        "semantic_instance_key": "d1dd324ef067bedc85a90b2b:0",
+        "authored_time": "+1h10m",
+        "actor": "www-data",
+        "system": "WEB-BO-01",
+        "activity": "Attacker performs light internal discovery from the DMZ host",
+        "planned": true,
+        "action_ids": [
+          "50be49e9-e522-440c-9f8f-158107c9ba81"
+        ],
+        "occurrence_ids": [
+          "0d7f5710-d1fb-44ff-98e4-dfe21ae628de",
+          "a2761cda-44e5-4241-9308-0c50cc2be55d"
+        ],
+        "action_reference_count": 2,
+        "occurrence_reference_count": 2,
+        "action_digest": "673de12ddad45e0acd5e125913c80957c856fe52d1d9345f16cafd9ad3b94a57",
+        "occurrence_digest": "6aedfc5c6ffa54b2c4e15cab33cda0c7853ad71bc9332caf0573c0ae5261c0cb",
+        "duplicate_occurrence_count": 0,
+        "occurrence_window_counts": {
+          "24h": 2,
+          "7d": 2,
+          "30d": 2
+        },
+        "source_status": {
+          "ecar": {
+            "visible": 2
+          }
+        }
+      },
+      {
+        "intent_id": "10beea68-d45c-44ed-8264-cab65dc34a8b",
+        "ground_truth_section": "storyline",
+        "storyline_id": "evt-003",
+        "event_type": "process",
+        "semantic_instance_key": "b0692c4fe4f2859ec7a7c4d9:0",
+        "authored_time": "+1h10m",
+        "actor": "www-data",
+        "system": "WEB-BO-01",
+        "activity": "Attacker performs light internal discovery from the DMZ host",
+        "planned": true,
+        "action_ids": [
+          "79a5631d-dc80-40e1-b567-512c1b497701"
+        ],
+        "occurrence_ids": [
+          "3986b167-ad09-4bbc-9c62-0285314bbb24",
+          "e86718cf-07e4-4801-9661-e90f334fc666"
+        ],
+        "action_reference_count": 2,
+        "occurrence_reference_count": 2,
+        "action_digest": "89893d501919dc181bae647b8f7c5be1ca2e3baa38fb6982e2a2aebc7e2c1345",
+        "occurrence_digest": "af03ee5478a89a0b8a3de94035857b7b68efb241ccb571e7ba72274c330643f5",
+        "duplicate_occurrence_count": 0,
+        "occurrence_window_counts": {
+          "24h": 2,
+          "7d": 2,
+          "30d": 2
+        },
+        "source_status": {
+          "ecar": {
+            "visible": 2
+          }
+        }
+      },
+      {
+        "intent_id": "f515dd84-859b-43b1-a058-a8cf0fea814e",
+        "ground_truth_section": "storyline",
+        "storyline_id": "evt-003",
+        "event_type": "port_scan",
+        "semantic_instance_key": "6fefaee1f23670db2fbf4592:0",
+        "authored_time": "+1h10m",
+        "actor": "www-data",
+        "system": "WEB-BO-01",
+        "activity": "Attacker performs light internal discovery from the DMZ host",
+        "planned": true,
+        "action_ids": [
+          "0decf424-18bf-4c6a-b391-ec9f385b9068",
+          "2b2d6bad-2262-4ac3-876e-76a1913a38d9",
+          "37c6ea0e-3afe-4456-b412-f28a30e49128",
+          "5c7f357c-d6c8-4662-aad9-00b1a494e263",
+          "98dd1330-aee8-46dd-a31f-67254b312751",
+          "ae88cd45-d8f7-4a86-bfe3-e8f076c67dc9",
+          "c00261c9-32a1-4208-b5ce-8b4cda79d273",
+          "d52a4782-6933-4d88-863a-f9518736b738"
+        ],
+        "occurrence_ids": [
+          "0202b1e9-d6e2-4a99-b1c0-f15934354f66",
+          "121902c1-5c85-49f6-8bae-6f91f3b398f9",
+          "50172420-0949-422d-a7e5-f55fdef5a6c9",
+          "67da094e-ae8c-443a-8c69-9ca500aa449f",
+          "8648bb4c-b8d3-4dd9-a7b5-253c22c5ae9d",
+          "94fa4512-b8e3-4eb3-90ce-564727fd8b77",
+          "d099818b-edd5-4ee1-bcc9-dcc2d1a183e6",
+          "fcf61e5a-d73c-42fc-b546-83e78e400e05"
+        ],
+        "action_reference_count": 33,
+        "occurrence_reference_count": 33,
+        "action_digest": "5984c95341b990f55b045e746f170107db8347f486473fdf7574a21e2a8640f3",
+        "occurrence_digest": "5ebe8c7fe21c155580d54f28654b8f6055ccc00ea116f50451cd8306724702f3",
+        "duplicate_occurrence_count": 0,
+        "occurrence_window_counts": {
+          "24h": 33,
+          "7d": 33,
+          "30d": 33
+        },
+        "source_status": {
+          "asa": {
+            "visible": 32
+          },
+          "ecar": {
+            "visible": 1
+          },
+          "zeek": {
+            "visible": 32
+          }
+        }
+      },
+      {
+        "intent_id": "9a5b0263-a4a5-4608-9ceb-edeae24e892a",
+        "ground_truth_section": "storyline",
+        "storyline_id": "evt-004",
+        "event_type": "rdp_session",
+        "semantic_instance_key": "26f93843a0495dfbdc570c54:0",
+        "authored_time": "+1h24m",
+        "actor": "nina.kapoor",
+        "system": "FILE-BO-01",
+        "activity": "Attacker uses compromised admin credentials to RDP from the DMZ web server to the file server",
+        "planned": true,
+        "action_ids": [
+          "6bb0d804-57cc-4713-9a6c-c1d08f2cff24",
+          "9226151d-42d1-4f23-bc52-2f0170e17b53",
+          "network-connection-e4cc699b-a8ea-4634-a9dd-3e19b40a0b74"
+        ],
+        "occurrence_ids": [
+          "219d417f-3294-421b-a447-08e0d92adb48",
+          "25e78b4e-2b03-4c4a-bcd9-5693bd8e8716",
+          "2a34a7be-86d9-480d-b8a6-63042669f75c",
+          "4db873e8-e9d2-4ef2-aa76-28e165f65fcc",
+          "586ae060-70ba-4ba5-8a3d-b6719a2de805",
+          "cce35e53-7c08-4dd8-abb8-872f6c99ba56"
+        ],
+        "action_reference_count": 6,
+        "occurrence_reference_count": 6,
+        "action_digest": "4611ca8dd83091ea9da27b9f262b2e268275f06ee21b3cf9043a9a641f2631ee",
+        "occurrence_digest": "36d446ced162ddb2c088551117832b814dd48391f794c7ee21d422cc9fe77484",
+        "duplicate_occurrence_count": 0,
+        "occurrence_window_counts": {
+          "24h": 6,
+          "7d": 6,
+          "30d": 6
+        },
+        "source_status": {
+          "asa": {
+            "visible": 1
+          },
+          "ecar": {
+            "visible": 6
+          },
+          "sysmon": {
+            "visible": 4
+          },
+          "windows_security": {
+            "visible": 5
+          },
+          "zeek": {
+            "visible": 1
+          }
+        }
+      },
+      {
+        "intent_id": "694243d3-08a5-4187-9cc5-0efca307dac8",
+        "ground_truth_section": "storyline",
+        "storyline_id": "evt-005",
+        "event_type": "process",
+        "semantic_instance_key": "4493caee2b1f84d42bc5e43f:0",
+        "authored_time": "+1h30m",
+        "actor": "nina.kapoor",
+        "system": "FILE-BO-01",
+        "activity": "Attacker enumerates file shares and stages a small archive",
+        "planned": true,
+        "action_ids": [
+          "51024b44-cce8-4ac7-8aa0-198c9569d8fb",
+          "8b251fc2-c431-4173-9db6-9656190b4950",
+          "8cb41ccd-bfa8-48fb-9fe5-a4ad48950a85",
+          "defa4caf-b2a3-42ba-ad88-64b66ab251b7"
+        ],
+        "occurrence_ids": [
+          "0af91d21-1fe0-4772-8eef-7995a2a1618b",
+          "8691293a-f1c9-4055-a737-d6d57d8f91d9",
+          "8ccdf3b3-3051-49c3-bfbe-c268ef257678",
+          "8f5323af-0612-464e-afd9-5e88c0cc5b56",
+          "ab4b41dc-b72b-4962-977e-c95b4083b913",
+          "d5ec8e24-a919-416d-82aa-a075f5e778e2",
+          "f6513c22-0407-4f11-a3a3-8da57568065c",
+          "f821933d-81bd-4c81-a9f2-ad448312cf3b"
+        ],
+        "action_reference_count": 10,
+        "occurrence_reference_count": 10,
+        "action_digest": "ff8feb5093a5fc34da766f74edd8b5070dd0851bb30df9f2fdc0c20c55dd2b6e",
+        "occurrence_digest": "f43a8ed579b245fccd0977d4a3e88971e8e765b4593993001eb6366ef6e09833",
+        "duplicate_occurrence_count": 0,
+        "occurrence_window_counts": {
+          "24h": 10,
+          "7d": 10,
+          "30d": 10
+        },
+        "source_status": {
+          "ecar": {
+            "visible": 9
+          },
+          "sysmon": {
+            "visible": 9
+          },
+          "windows_security": {
+            "visible": 4
+          }
+        }
+      },
+      {
+        "intent_id": "f7466555-ec24-4be8-bd89-63518704f16c",
+        "ground_truth_section": "storyline",
+        "storyline_id": "evt-005",
+        "event_type": "process",
+        "semantic_instance_key": "9b36c4e11e41433bd14ae579:0",
+        "authored_time": "+1h30m",
+        "actor": "nina.kapoor",
+        "system": "FILE-BO-01",
+        "activity": "Attacker enumerates file shares and stages a small archive",
+        "planned": true,
+        "action_ids": [
+          "cede6079-4729-4372-a6ba-55dc2e3dcc5d"
+        ],
+        "occurrence_ids": [
+          "1444503d-cfc8-4ff5-9573-eb508d436ec5",
+          "170a48ac-bbc8-4760-aa8c-9e66c5ae03d4",
+          "18996e39-bebc-4660-8f8e-db926c61756b",
+          "901336ad-fcb2-4b06-a9fe-f2f2f4817fd3",
+          "9ccaa99a-4675-4f5d-96be-7fb04823cc1f",
+          "cfa3dc3a-265c-477e-a57f-3d1bf608333d",
+          "dae29e8d-ce65-4dea-ad5d-ee12fdfe9840",
+          "fee1c5da-2ca1-4461-a572-50047cac4042"
+        ],
+        "action_reference_count": 9,
+        "occurrence_reference_count": 9,
+        "action_digest": "2f99c52af1b66af603af11e0ff11fc32836d93d6144800c235a675d9a88a7823",
+        "occurrence_digest": "ed352958fd03af26341b23c220c74362f8c6d83fa5d2860b4433eaf1d36b9cf7",
+        "duplicate_occurrence_count": 0,
+        "occurrence_window_counts": {
+          "24h": 9,
+          "7d": 9,
+          "30d": 9
+        },
+        "source_status": {
+          "ecar": {
+            "visible": 9
+          },
+          "sysmon": {
+            "visible": 9
+          },
+          "windows_security": {
+            "visible": 1
+          }
+        }
+      },
+      {
+        "intent_id": "c06eea2f-5762-4776-b9c1-418d732ea53c",
+        "ground_truth_section": "storyline",
+        "storyline_id": "evt-006",
+        "event_type": "beacon",
+        "semantic_instance_key": "f731d6b4dc3cbea743be2213:0",
+        "authored_time": "+1h44m",
+        "actor": "nina.kapoor",
+        "system": "WS-NKAPOOR-01",
+        "activity": "Compromised admin workstation beacons through the explicit proxy to attacker infrastructure",
+        "planned": true,
+        "action_ids": [
+          "0ba86f8d-a9d5-4ebb-af29-ce1729a48f33",
+          "0cdaea60-ea03-4f00-aca6-4cd32c548fb9",
+          "41134f12-6d1f-42e8-9caa-ec494f56b216",
+          "591134d1-d672-41d6-be33-11c999803593",
+          "94a61f43-1566-4fb8-9c25-62886742515a",
+          "b5ff1e65-4889-4f09-8e64-9fcf43d3004b",
+          "d3028ef0-ae04-4c2d-83ef-da7adface896",
+          "e6033e55-e8a2-47fc-a57f-452803fcfd2a"
+        ],
+        "occurrence_ids": [
+          "0adb0426-17ee-4a6e-8be8-fd585d875495",
+          "238c62c3-a3b1-46a6-a7b6-1bec952efcb4",
+          "65a276ad-49d8-47ff-a26c-04b9014f2f9c",
+          "7d8e1b6d-273d-4f67-a064-02ce5c8fcb1a",
+          "8399f120-429b-4cac-8345-e45c7ba77bba",
+          "8fcb3f77-cc64-4ecb-b31b-08b7a7414e35",
+          "d8f3d1da-2635-41ce-af03-9a8b85d7a858",
+          "df271502-106b-4bc0-9def-24c72de3983a"
+        ],
+        "action_reference_count": 38,
+        "occurrence_reference_count": 38,
+        "action_digest": "e8101046a06f69624a76955302bb51aa6a2cfc06486fdef6bb8e91a5a959d587",
+        "occurrence_digest": "1e0c0797658e1a484e010107a461cc5084cef149536a537565a1c8455fbef18e",
+        "duplicate_occurrence_count": 0,
+        "occurrence_window_counts": {
+          "24h": 38,
+          "7d": 38,
+          "30d": 38
+        },
+        "source_status": {
+          "asa": {
+            "filtered": 15,
+            "visible": 8
+          },
+          "ecar": {
+            "visible": 23
+          },
+          "proxy": {
+            "visible": 8
+          },
+          "sysmon": {
+            "visible": 15
+          },
+          "windows_security": {
+            "visible": 15
+          },
+          "zeek": {
+            "visible": 46
+          }
+        }
+      },
+      {
+        "intent_id": "ea79eb07-6c62-4df5-91fd-d0f9b3c47994",
+        "ground_truth_section": "red_herring",
+        "storyline_id": "rh-001",
+        "event_type": "failed_logon",
+        "semantic_instance_key": "a6c24acd5ea4465e15154681:0",
+        "authored_time": "+2h20m",
+        "actor": "victor.hale",
+        "system": "WS-VHALE-01",
+        "activity": "Branch manager mistypes a password during a VPN reconnect",
+        "planned": true,
+        "action_ids": [
+          "017849d1-d699-4596-8b7e-5644c5edf1e2",
+          "077b468d-8fe2-48bb-acda-3c5fba65f27d",
+          "8b6f01cb-ca77-4faa-9b9d-bbf8bb86e1d2",
+          "f88712d0-5322-4856-a6e2-ef4d092670e6"
+        ],
+        "occurrence_ids": [
+          "0180483e-b6c2-4a3c-a07a-22d2ddb05054",
+          "062865c9-a132-464d-9c90-db01f95939d2",
+          "17c4b3e5-13ea-4abb-96ec-835c51a8c9d3",
+          "25d33a15-a2dd-4477-afa0-ab1e89eb7004",
+          "5e13553a-559c-4603-b8d2-a4989c4d0927",
+          "8425fed4-9c5a-4eff-badd-a2579e73a62e",
+          "ab840580-bf63-4dc3-aa8f-132913cc57e7"
+        ],
+        "action_reference_count": 7,
+        "occurrence_reference_count": 7,
+        "action_digest": "ee306411dbdcb2e91a265178e98889336764fcb38d21c3f405554286bff9f69a",
+        "occurrence_digest": "e96f625c2df00f4afe94aca0a63c10ccd4cc085b8c2358c32245048da8ed197d",
+        "duplicate_occurrence_count": 0,
+        "occurrence_window_counts": {
+          "24h": 7,
+          "7d": 7,
+          "30d": 7
+        },
+        "source_status": {
+          "asa": {
+            "visible": 2
+          },
+          "ecar": {
+            "visible": 3
+          },
+          "sysmon": {
+            "visible": 2
+          },
+          "windows_security": {
+            "visible": 5
+          },
+          "zeek": {
+            "visible": 2
+          }
+        }
+      }
+    ]
+  },
+  "events": [
+    {
+      "record_id": "evt-001#0",
+      "kind": "web_scan",
+      "intent_id": "f15b9fa9-a6d9-43ec-aef7-9a7db84474a0",
+      "storyline_id": "evt-001",
+      "time": "2024-05-14T12:54:42Z",
+      "actor": "www-data",
+      "system": "WEB-BO-01",
+      "activity": "External vulnerability scanner probes the public claims portal",
+      "ground_truth_section": "storyline",
+      "emitted": true,
+      "attributes": {
+        "dst_ip": "45.83.220.5",
+        "dst_port": 80,
+        "preset": "nikto",
+        "request_count": 69
+      }
+    },
+    {
+      "record_id": "evt-002#0",
+      "kind": "ssh_session",
+      "intent_id": "835e52cc-6190-4537-8b5c-66e4aa2c7ee3",
+      "storyline_id": "evt-002",
+      "time": "2024-05-14T13:04:43Z",
+      "actor": "www-data",
+      "system": "WEB-BO-01",
+      "activity": "Attacker obtains a shell on the web server and checks process identity",
+      "ground_truth_section": "storyline",
+      "emitted": true,
+      "attributes": {
+        "dst_ip": "10.44.30.10",
+        "dst_port": 22,
+        "uid": "C8VSgSwBMpOf900N4D"
+      }
+    },
+    {
+      "record_id": "evt-002#1",
+      "kind": "process",
+      "intent_id": "908e69f4-dfcf-4627-99ee-09e915561bda",
+      "storyline_id": "evt-002",
+      "time": "2024-05-14T13:04:46Z",
+      "actor": "www-data",
+      "system": "WEB-BO-01",
+      "activity": "Attacker obtains a shell on the web server and checks process identity",
+      "ground_truth_section": "storyline",
+      "emitted": true,
+      "attributes": {
+        "command_line": "id",
+        "pid": 1923205,
+        "process_name": "/usr/bin/id"
+      }
+    },
+    {
+      "record_id": "evt-003#0",
+      "kind": "process",
+      "intent_id": "dc4aba52-859a-4168-8b45-6ab52f537253",
+      "storyline_id": "evt-003",
+      "time": "2024-05-14T13:10:04Z",
+      "actor": "www-data",
+      "system": "WEB-BO-01",
+      "activity": "Attacker performs light internal discovery from the DMZ host",
+      "ground_truth_section": "storyline",
+      "emitted": true,
+      "attributes": {
+        "command_line": "ip addr",
+        "pid": 1923842,
+        "process_name": "/usr/sbin/ip"
+      }
+    },
+    {
+      "record_id": "evt-003#1",
+      "kind": "process",
+      "intent_id": "10beea68-d45c-44ed-8264-cab65dc34a8b",
+      "storyline_id": "evt-003",
+      "time": "2024-05-14T13:10:08Z",
+      "actor": "www-data",
+      "system": "WEB-BO-01",
+      "activity": "Attacker performs light internal discovery from the DMZ host",
+      "ground_truth_section": "storyline",
+      "emitted": true,
+      "attributes": {
+        "command_line": "ss -tulpn",
+        "pid": 1923848,
+        "process_name": "/usr/sbin/ss"
+      }
+    },
+    {
+      "record_id": "evt-003#2",
+      "kind": "port_scan",
+      "intent_id": "f515dd84-859b-43b1-a058-a8cf0fea814e",
+      "storyline_id": "evt-003",
+      "time": "2024-05-14T13:10:20Z",
+      "actor": "www-data",
+      "system": "WEB-BO-01",
+      "activity": "Attacker performs light internal discovery from the DMZ host",
+      "ground_truth_section": "storyline",
+      "emitted": true,
+      "attributes": {
+        "ports": [
+          22,
+          80,
+          445,
+          3389
+        ],
+        "protocol": "tcp",
+        "target_count": 8,
+        "total_connections": 32
+      }
+    },
+    {
+      "record_id": "evt-004#0",
+      "kind": "rdp_session",
+      "intent_id": "9a5b0263-a4a5-4608-9ceb-edeae24e892a",
+      "storyline_id": "evt-004",
+      "time": "2024-05-14T13:23:35Z",
+      "actor": "nina.kapoor",
+      "system": "FILE-BO-01",
+      "activity": "Attacker uses compromised admin credentials to RDP from the DMZ web server to the file server",
+      "ground_truth_section": "storyline",
+      "emitted": true,
+      "attributes": {
+        "dst_ip": "10.44.20.20",
+        "dst_port": 3389,
+        "uid": "CCjJF3s1iTAWLtf0zx"
+      }
+    },
+    {
+      "record_id": "evt-005#0",
+      "kind": "process",
+      "intent_id": "694243d3-08a5-4187-9cc5-0efca307dac8",
+      "storyline_id": "evt-005",
+      "time": "2024-05-14T13:29:49Z",
+      "actor": "nina.kapoor",
+      "system": "FILE-BO-01",
+      "activity": "Attacker enumerates file shares and stages a small archive",
+      "ground_truth_section": "storyline",
+      "emitted": true,
+      "attributes": {
+        "command_line": "cmd.exe /c dir \\\\FILE-BO-01\\Claims /s",
+        "pid": 5048,
+        "process_name": "C:\\Windows\\System32\\cmd.exe"
+      }
+    },
+    {
+      "record_id": "evt-005#1",
+      "kind": "process",
+      "intent_id": "f7466555-ec24-4be8-bd89-63518704f16c",
+      "storyline_id": "evt-005",
+      "time": "2024-05-14T13:29:53Z",
+      "actor": "nina.kapoor",
+      "system": "FILE-BO-01",
+      "activity": "Attacker enumerates file shares and stages a small archive",
+      "ground_truth_section": "storyline",
+      "emitted": true,
+      "attributes": {
+        "command_line": "powershell.exe -NoProfile -Command Compress-Archive -Path \\\\FILE-BO-01\\Claims\\Q2 -DestinationPath C:\\Windows\\Temp\\q2-rollup.zip -Force",
+        "pid": 5060,
+        "process_name": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "staged_archive": "C:\\Windows\\Temp\\q2-rollup.zip"
+      }
+    },
+    {
+      "record_id": "evt-006#0",
+      "kind": "beacon",
+      "intent_id": "c06eea2f-5762-4776-b9c1-418d732ea53c",
+      "storyline_id": "evt-006",
+      "time": "2024-05-14T13:44:18Z",
+      "actor": "nina.kapoor",
+      "system": "WS-NKAPOOR-01",
+      "activity": "Compromised admin workstation beacons through the explicit proxy to attacker infrastructure",
+      "ground_truth_section": "storyline",
+      "emitted": true,
+      "attributes": {
+        "action": "allow",
+        "attempt_count": 8,
+        "dst_ip": "45.83.221.30",
+        "dst_port": 443,
+        "interval": "5m",
+        "termination": "35m"
+      }
+    },
+    {
+      "record_id": "red_herring:rh-001#0",
+      "kind": "failed_logon",
+      "intent_id": "ea79eb07-6c62-4df5-91fd-d0f9b3c47994",
+      "storyline_id": "red_herring:rh-001",
+      "time": "2024-05-14T14:19:49Z",
+      "actor": "victor.hale",
+      "system": "WS-VHALE-01",
+      "activity": "Branch manager mistypes a password during a VPN reconnect",
+      "ground_truth_section": "red_herring",
+      "emitted": true,
+      "explanation": "Benign user error that creates a small cluster of failed authentication evidence",
+      "attributes": {
+        "source_ip": "198.51.100.77"
+      }
+    }
+  ]
+}

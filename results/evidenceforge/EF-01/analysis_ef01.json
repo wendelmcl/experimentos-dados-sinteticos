@@ -1,0 +1,110 @@
+{
+  "experimento": "EF-01",
+  "arquivos_ecar": 9,
+  "registros_validos": 12145,
+  "registros_invalidos": 0,
+  "registros_por_sistema": {
+    "DC-BO-01.northstar-branch.local": 3108,
+    "FILE-BO-01.northstar-branch.local": 977,
+    "PROXY-BO-01.northstar-branch.local": 2154,
+    "WEB-BO-01.northstar-branch.local": 1688,
+    "WS-LMORRIS-01.northstar-branch.local": 835,
+    "WS-MPATEL-01.northstar-branch.local": 663,
+    "WS-NKAPOOR-01.northstar-branch.local": 1226,
+    "WS-OREED-01.northstar-branch.local": 949,
+    "WS-VHALE-01.northstar-branch.local": 545
+  },
+  "objetos": {
+    "FLOW": 7752,
+    "PROCESS": 2026,
+    "MODULE": 1345,
+    "USER_SESSION": 710,
+    "REGISTRY": 229,
+    "FILE": 76,
+    "THREAD": 7
+  },
+  "acoes": {
+    "CONNECT": 7752,
+    "LOAD": 1345,
+    "CREATE": 808,
+    "TERMINATE": 724,
+    "LOGIN": 500,
+    "OPEN": 499,
+    "MODIFY": 229,
+    "LOGOUT": 210,
+    "READ": 37,
+    "WRITE": 34,
+    "REMOTE_CREATE": 7
+  },
+  "combinacoes_objeto_acao": [
+    {
+      "objeto": "FLOW",
+      "acao": "CONNECT",
+      "quantidade": 7752
+    },
+    {
+      "objeto": "MODULE",
+      "acao": "LOAD",
+      "quantidade": 1345
+    },
+    {
+      "objeto": "PROCESS",
+      "acao": "CREATE",
+      "quantidade": 803
+    },
+    {
+      "objeto": "PROCESS",
+      "acao": "TERMINATE",
+      "quantidade": 724
+    },
+    {
+      "objeto": "USER_SESSION",
+      "acao": "LOGIN",
+      "quantidade": 500
+    },
+    {
+      "objeto": "PROCESS",
+      "acao": "OPEN",
+      "quantidade": 499
+    },
+    {
+      "objeto": "REGISTRY",
+      "acao": "MODIFY",
+      "quantidade": 229
+    },
+    {
+      "objeto": "USER_SESSION",
+      "acao": "LOGOUT",
+      "quantidade": 210
+    },
+    {
+      "objeto": "FILE",
+      "acao": "READ",
+      "quantidade": 37
+    },
+    {
+      "objeto": "FILE",
+      "acao": "WRITE",
+      "quantidade": 34
+    },
+    {
+      "objeto": "THREAD",
+      "acao": "REMOTE_CREATE",
+      "quantidade": 7
+    },
+    {
+      "objeto": "FILE",
+      "acao": "CREATE",
+      "quantidade": 5
+    }
+  ],
+  "campos_ausentes": {},
+  "ids_distintos": 12145,
+  "registros_sem_id": 0,
+  "ids_duplicados": 0,
+  "timestamps_invalidos": 0,
+  "inversoes_temporais": 0,
+  "registros_fora_janela": 0,
+  "primeiro_evento_utc": "2024-05-14T12:00:02.717000+00:00",
+  "ultimo_evento_utc": "2024-05-14T17:59:56.478000+00:00"
+}

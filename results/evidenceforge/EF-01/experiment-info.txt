@@ -1,0 +1,12 @@
+Experimento: EF-01
+Ferramenta: EvidenceForge
+Versao: 2.1.2
+Commit: 79fcfcdf3726168dacfede5a27aab2aa7a2f3d69
+Python: Python 3.12.16
+Cenario: branch-office-example
+Registros: 42736
+Fontes: 18
+Qualidade: 97/100
+Aceitacao: PASS
+Reprodutibilidade dos logs: confirmada
+Ground Truth SHA-256: c23c780c6daa9eda632759b876a8e1b7b9f4d28316deb892bbcb256ace099f6a

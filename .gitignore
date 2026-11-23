@@ -1,0 +1,30 @@
+# Ambientes virtuais e arquivos Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Repositório original do EvidenceForge
+evidenceforge/EvidenceForge/
+
+# Datasets que poderão ser grandes
+datasets/*
+
+# Arquivos temporários
+.DS_Store
+*.log
+.ipynb_checkpoints/
+
+# Credenciais e variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Arquivos locais de execução
+output/
+output-ef01/
+
+# Configuração expandida do cenário oficial
+results/evidenceforge/EF-01/RESOLVED_SCENARIO.yaml
